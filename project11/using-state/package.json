@@ -1,7 +1,7 @@
 {
-  "name": "jsx-attributes",
+  "name": "using-state",
   "version": "1.0.0",
-  "description": "To learn about how to use jsx attributes",
+  "description": "To learn how to use state to increment counter on button click",
   "main": "index.js",
   "scripts": {
     "start": "npm run build",
