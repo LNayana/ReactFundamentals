@@ -25,8 +25,7 @@ const Footer = (props) =>{
         );
 };
 
-class PageContainer extends React.Component{
-    render(){
+const PageContainer = (props) =>{
         return (
             <div>
                 <Header />
@@ -34,7 +33,6 @@ class PageContainer extends React.Component{
                 <Footer />
             </div>
         );
-    }
 };
 
 let mountNode = document.getElementById('appContainer');
